@@ -14,7 +14,7 @@ public class ReadMemberServlet extends HttpServlet{
 		Member m = namedMemberList.get(0);
 		
 		resp.setCharacterEncoding("UTF-8");
-		resp.setContentType("text/plain");
+		resp.setContentType("text/plain"); 
 		
 		resp.getWriter().println("<html>");
 		resp.getWriter().println("<body>");
